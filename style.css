@@ -1,0 +1,17 @@
+.stTextInput>div>div>input {
+    color: #ffffff;
+}
+
+.stTextInput>div>div>input::placeholder{
+    color: #ffffff; 
+    /* color: #1c2d5c */
+}
+
+.css-1k3urp0 {
+    color: #4a86f5; 
+}
+
+.css-xlqu53 {
+    color: #4a86f5; 
+}
+
