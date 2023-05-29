@@ -10,3 +10,5 @@ jupyter
 ipykernel
 textract
 tiktoken
+streamlit_extras
+PyPDF2
