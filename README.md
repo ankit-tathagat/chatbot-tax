@@ -11,6 +11,7 @@ To run either version of the app, please follow the instructions:
 
 - **Steps to run on your local system**
     - Clone the repository from the github
+    - Create a openai account and get api-key from [here](https://platform.openai.com/account/api-keys)
     - Download Docker and setup redis
         - To set this up locally, you will need to install Docker first and then run the following command: ```docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest```.
         - More Info: [docs for Redis Stack](https://redis.io/docs/stack/get-started/install/docker/).
