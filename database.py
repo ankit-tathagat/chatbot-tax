@@ -9,7 +9,7 @@ import os
 
 from config import EMBEDDINGS_MODEL, PREFIX, VECTOR_FIELD_NAME, INDEX_NAME
 
-openai.api_key = "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"
+openai.api_key = "put_your_api_key"
 
 # Get a Redis connection
 def get_redis_connection(host='localhost',port='6379',db=0):

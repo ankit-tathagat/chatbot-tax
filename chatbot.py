@@ -7,7 +7,7 @@ from database import get_redis_connection,get_redis_results
 
 from config import CHAT_MODEL,COMPLETIONS_MODEL, INDEX_NAME
 
-openai.api_key = "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"
+openai.api_key = "put_your_api_key"
 redis_client = get_redis_connection()
 
 # A basic class to create a message as a dict for chat

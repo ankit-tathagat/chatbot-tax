@@ -6,7 +6,7 @@ from database import get_redis_connection, get_redis_results
 from config import INDEX_NAME, COMPLETIONS_MODEL
 from file_viewer import download_pdf, read_pdf
 
-openai.api_key = "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"
+openai.api_key = "put_your_api_key"
 
 # initialise Redis connection
 

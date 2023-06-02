@@ -8,7 +8,7 @@ import os
 from config import TEXT_EMBEDDING_CHUNK_SIZE, EMBEDDINGS_MODEL
 from database import load_vectors
 
-openai.api_key = "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"
+openai.api_key = "put_your_api_key"
 
 def get_col_average_from_list_of_lists(list_of_lists):
     """Return the average of each column in a list of lists."""
