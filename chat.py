@@ -35,7 +35,7 @@ Assistant: Searching for answers.
 ### CHATBOT APP
 
 st.set_page_config(
-    page_title="Streamlit Chat - Demo",
+    page_title="Demo",
     page_icon=":robot:",
     initial_sidebar_state="expanded"
     

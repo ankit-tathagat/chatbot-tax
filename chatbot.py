@@ -58,7 +58,7 @@ class RetrievalAssistant:
         
         # Answer normally unless the trigger sequence is used "searching_for_answers"
         if 'searching for answers' in assistant_response['content'].lower():
-            question_extract = openai.Completion.create(model=COMPLETIONS_MODEL,prompt=f"Extract the user's latest question and city for that question from this conversation: {self.conversation_history}. Extract it as a sentence stating the Question and city")
+            question_extract = openai.Completion.create(model=COMPLETIONS_MODEL,prompt=f"Extract the user's latest question and city for that question from this conversation: {self.conversation_history}. Extract it as a sentence stating the Question and City")
             search_result = self._get_search_results(question_extract['choices'][0]['text'])
             
             # We insert an extra system prompt here to give fresh context to the Chatbot on how to use the Redis results
